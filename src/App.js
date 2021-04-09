@@ -1,8 +1,8 @@
-import logo from './snek-token.png';
+import logo from './mouse-token.png';
 
 import './App.css';
 
-setTimeout(function(){ window.location.reload(); }, 20000);
+setTimeout(function(){ window.location.reload(); }, 10000);
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          Snek.Farm is updating!
+          Mouse.Farm is updating!
         </h1>
         <h3>
           We'll be back in 1-2 minutes!
